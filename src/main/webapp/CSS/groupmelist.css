@@ -1,0 +1,15 @@
+.first{
+     width:70%;
+     height:300px;
+     position:absolute;
+     border:1px solid red;
+ }
+.second{
+    border:2px solid blue;
+    width:40%;
+    height:200px;
+	position: relative;
+    top: 315px;
+}
+
+

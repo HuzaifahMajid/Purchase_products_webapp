@@ -1,0 +1,87 @@
+h1, h2 {
+	text-align: center;
+}
+
+p{
+	text-align:center;
+	
+}
+
+/* table {
+	width: 50%;
+	text-align: left;
+	padding: 16px;
+}
+
+th, td {
+	padding: 16px;
+	border-bottom: 1px solid black;
+} */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+
+.center {
+	position: relative;
+	left: 50%;
+}
+
+.center-collapse {
+ 	position: relative;
+ 	left: 25%;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+.collapsible-content {
+  	padding: 0 18px;
+  	background-color: white;
+  	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.2s ease-out;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
